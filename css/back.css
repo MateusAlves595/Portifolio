@@ -1,0 +1,28 @@
+.back{
+    display: grid;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    right: 24px;
+    bottom: 24px;
+    background-color: var(--primary-color);
+    place-content: center;
+    color: #000;
+    border-radius: 50%;
+    z-index: 666;
+    opacity: .3;
+    transition: opacity .5s;
+}
+
+.back:hover{
+    opacity: 1;
+}
+
+
+/* TABLET */
+@media (max-width:960px){
+.back{
+    display: none;
+}
+
+}
