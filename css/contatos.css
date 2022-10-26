@@ -54,3 +54,12 @@
 .link-title{
     font-size: 1.5rem;
 }
+
+/* Tablet */
+
+@media (max-width:960px) {
+
+    .contatos{
+        
+    }
+}

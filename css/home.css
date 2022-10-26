@@ -25,12 +25,33 @@
 /* TABLET */
 @media (max-width:960px){
 
+    header{
+        max-width: 730px;
+        width: 100%;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        display: flex;
+        font-size: 3rem;
+    }
+    .logo::before{
+        font-size: 3rem;
+    }
+    .logo::after{
+        font-size: 3rem;
+    }
     .menu{
         display: none;
     }
     
     .barras-menu{
-        display: grid;
+        display: flex;
+        font-size: 3rem;
     }
 
 }
