@@ -56,7 +56,9 @@ footer{
 /* TABLET */
 @media (max-width:960px){
 
-    
+    .projetos{
+        height: 225vh;
+    }
     
 
 }

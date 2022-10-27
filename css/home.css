@@ -55,3 +55,31 @@
     }
 
 }
+
+/*  Celular */
+
+@media (max-width:640px) {
+    header{
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .logo{
+        font-size: 2rem;
+    }
+    .logo::before{
+        font-size: 2rem;
+    }
+    .logo::after{
+        font-size: 2rem;
+    }
+
+    .barras-menu{
+        font-size: 2rem;
+    }
+
+    .texto-introducao{
+        text-align: center;
+        align-items: center;
+    }
+}

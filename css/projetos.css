@@ -33,3 +33,21 @@
 .card:hover::before{
     transform: translateY(0%)
 }
+
+/* Tablet */
+
+@media (max-width:960px) {
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        height: 350px;
+    }
+}
