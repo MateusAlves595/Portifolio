@@ -86,3 +86,29 @@
         gap: 32px;
     }
 }
+
+/*  Celular */
+
+@media (max-width:640px) {
+    
+    .sobre-mim .section-title{
+        font-size: 6.5rem;
+    }
+
+    .sobre-mim{
+        max-width: 592px;
+        width: 100%;
+    }
+
+    .skills__icons
+    {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .card{
+        max-width: 640px;
+        width: 100%;
+    }
+}

@@ -81,11 +81,57 @@
 
     .social-item{
         font-size: 3rem;
+        width: 100px;
+        height: 100px;
     }
 }
 
 /*  Celular */
 
 @media (max-width:640px) {
+
+    .contatos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1250px;
+        gap: 24px;
+    }
+
+    .social-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        place-self: center;
+        padding: 0px;
+        gap: 30px
+    }
+
+    .social-item{
+        padding: 13px 18px;
+    }
+
+    .contato-title{
+        display: none;
+    }
+
+    .contato-container{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .link-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    .link-title{
+        font-size: 35px;
+    }
 
 }

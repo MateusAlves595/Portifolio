@@ -37,10 +37,6 @@ section{
 .projetos{
     width: 100%;
 }
-.cotato{
-    background-color: darkgoldenrod;
-    width: 100%;
-}
 
 footer{
     place-self: end start;
@@ -61,4 +57,20 @@ footer{
     }
     
 
+}
+
+/*  Celular */
+
+@media (max-width:640px) {
+    .sobre-mim{
+        height: 120vh;
+    }
+
+    .projetos{
+        height: 302vh;
+    }
+
+    .contatos{
+        height: 150vh;
+    }
 }
